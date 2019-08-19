@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Add User Story</h1>
+    <form action="/story" method="post">
+        <p>
+            <label>Story Title</label><br>
+            <input type="text" name="title" required minlength="5" />
+        </p>
+        <p>
+            <label>User Story</label><br>
+            <textarea name="story" rows="5" cols="50"></textarea>
+        <p>
+            <label>Acceptance Criteria</label><br>
+            <textarea name="criteria" rows="5" cols="50"></textarea>
+        </p>
+        <p>
+            <label>Business Value</label><br>
+            <input type="number" name="value" min="100" max="1500" step="100"
+                   required>/>
+        </p>
+        <p>
+            <label>Estimation</label><br>
+            <input type="number" name=estimation"/>
+         </p>
+        <br/>
+        <br/>
+        <button type=submit>Add New User Story</button>
+    </form>
+</body>
+</html>

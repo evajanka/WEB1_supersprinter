@@ -1,0 +1,5 @@
+﻿0;List All User Stories;As a User,I want to see all the previously saved User Stories,so that I get an overview of all requirements;Given that there are any number ({0..n}) of saved User Stories, when I open the website,then ensure I see a table with all the stored data;1000 point;2 h;in progress	
+1;Add new User Stories;"As a User,I want to be able to add a new User Stories,So that I can extend the list of requirements";"When I open the website and I click the “Add User Story"" link,then ensure I see a form where I can add details of the new User Story, and if I submit the form, this User Story gets saved.";800 point;4 h;planning
+2;Update existing User Stories;"As a User,I want to be able to change details of an existing User Story,So that I can keep them up-to-date with the current info.";"When I open the website ,and I click the title of a User Story,then ensure I see a form prefilled with the details of the User Story,and when I submit the changed data, ensure it gets save,and ensure it overwrites the previous details, not creating a new User Story."
+3;kpávcé;álnjm;nmvd;100;1
+4;mvásadm;vmélad;vnléand;100;2
